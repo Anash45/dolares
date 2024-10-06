@@ -600,6 +600,9 @@ body {
     background-color: rgba(255, 255, 255, 0.03);
     border: 0 !important;
     align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden !important;
+    scrollbar-width: none;
 }
 
 .nav-tabs .nav-link {
@@ -611,12 +614,11 @@ body {
     background-color: transparent !important;
     border: 0 !important;
     position: relative;
+    white-space: nowrap;
     box-shadow: 0 !important;
 }
 
 .nav-tabs .nav-link.active {
-    padding: 20px 20px 22px;
-    font-size: 30px;
     color: #FF993B !important;
 }
 
@@ -956,6 +958,11 @@ body {
     font-size: 24.5px;
 }
 
+@media (max-width: 2000px) {
+    body{
+        zoom: 0.8;
+    }
+}
 @media (min-width: 1620px) {
 
     .ws-content {
@@ -1007,16 +1014,33 @@ body {
     .fb-img {
         width: 300px;
     }
+    body{
+        zoom: 1;
+    }
+    .stats-flex{
+        flex-direction: row;
+    }
+    .sb-light{
+        order: 1;
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .stat-box:not(.sb-light){
+        width: fit-content;
+        order: 2;
+        width: calc(50% - 14px);
+    }
+
+    .stat-box{
+        padding: 50px;
+    }
 }
 
 
 @media (max-width:992px) {
     .cb-title {
         font-size: 30px;
-    }
-
-    .stats-flex {
-        flex-direction: column;
     }
 
     .stat-box {
@@ -1082,6 +1106,13 @@ body {
     .tc-img {
         height: auto;
         width: 500px;
+    }
+    .nav-tabs{
+        padding: 0 20px;
+    }
+    .f-bottom .d-flex{
+        justify-content: center;
+        text-align: center;
     }
 }
 
@@ -1214,5 +1245,15 @@ body {
 
     .faq-page-img {
         height: auto;
+    }
+    .stats-flex{
+        gap: 12px;
+    }
+    .stat-box{
+        padding: 30px 10px;
+    }
+    .stat-cont{
+        gap: 30px;
+        padding: 30px 20px;
     }
 }
