@@ -313,7 +313,7 @@ body {
 .whys-flex {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .why-box {
@@ -568,9 +568,11 @@ body {
     background-color: #19172A;
     border-radius: 40px;
 }
-.boxes-cont .sec-box{
+
+.boxes-cont .sec-box {
     padding: 0 80px;
 }
+
 .faqs-box {
     padding: 80px 40px;
     background-color: #19172A;
@@ -928,19 +930,19 @@ body {
     font-size: 30px;
 }
 
-.boxes-cont{
+.boxes-cont {
     padding: 0 17px;
 }
 
-.boxes-cont>.row{
+.boxes-cont>.row {
     margin: 0 -17px;
 }
 
-.boxes-cont>.row>div{
+.boxes-cont>.row>div {
     padding: 0 17px 34px;
 }
 
-.counter{
+.counter {
     font-size: 17px;
     line-height: 100%;
     height: 29px;
@@ -954,15 +956,16 @@ body {
     justify-content: center;
 }
 
-.tc-title{
+.tc-title {
     font-size: 24.5px;
 }
 
 @media (max-width: 2000px) {
-    body{
+    body {
         zoom: 0.8;
     }
 }
+
 @media (min-width: 1620px) {
 
     .ws-content {
@@ -1014,25 +1017,28 @@ body {
     .fb-img {
         width: 300px;
     }
-    body{
+
+    body {
         zoom: 1;
     }
-    .stats-flex{
+
+    .stats-flex {
         flex-direction: row;
     }
-    .sb-light{
+
+    .sb-light {
         order: 1;
         width: 100%;
         flex-grow: 1;
     }
 
-    .stat-box:not(.sb-light){
+    .stat-box:not(.sb-light) {
         width: fit-content;
         order: 2;
         width: calc(50% - 14px);
     }
 
-    .stat-box{
+    .stat-box {
         padding: 50px;
     }
 }
@@ -1085,7 +1091,8 @@ body {
     .sec-box {
         padding: 0 40px;
     }
-    .boxes-cont .sec-box{
+
+    .boxes-cont .sec-box {
         padding: 0 30px;
     }
 
@@ -1103,14 +1110,17 @@ body {
         height: auto;
         width: 500px;
     }
+
     .tc-img {
         height: auto;
         width: 500px;
     }
-    .nav-tabs{
+
+    .nav-tabs {
         padding: 0 20px;
     }
-    .f-bottom .d-flex{
+
+    .f-bottom .d-flex {
         justify-content: center;
         text-align: center;
     }
@@ -1217,7 +1227,8 @@ body {
     .sec-box {
         padding: 0 24px;
     }
-    .boxes-cont .sec-box{
+
+    .boxes-cont .sec-box {
         padding: 0 24px;
     }
 
@@ -1227,6 +1238,10 @@ body {
 
     .bd-view {
         font-size: 18px;
+    }
+
+    .whys-flex {
+        gap: 10px;
     }
 }
 
@@ -1246,13 +1261,16 @@ body {
     .faq-page-img {
         height: auto;
     }
-    .stats-flex{
+
+    .stats-flex {
         gap: 12px;
     }
-    .stat-box{
+
+    .stat-box {
         padding: 30px 10px;
     }
-    .stat-cont{
+
+    .stat-cont {
         gap: 30px;
         padding: 30px 20px;
     }
