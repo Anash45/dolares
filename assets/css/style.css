@@ -467,13 +467,13 @@ body {
 }
 
 .inp-icon {
-    height: 25px;
-    width: 26px;
+    height: 22px;
+    width: 22px;
     object-fit: contain;
     object-position: center;
     position: absolute;
     top: 50%;
-    left: 35px;
+    left: 25px;
     transform: translateY(-50%);
 }
 
@@ -485,9 +485,9 @@ body {
 
 .f-inp {
     box-shadow: none !important;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
-    padding: 35px 70px 35px 70px;
+    padding: 30px 60px 30px 60px;
     border-radius: 22px;
     background-color: rgba(255, 255, 255, 0.03);
     color: #E9EAEE !important;
@@ -503,8 +503,8 @@ body {
 }
 
 .inp-eye-icon {
-    height: 25px;
-    width: 26px;
+    height: 22px;
+    width: 22px;
     object-fit: contain;
     object-position: center;
     position: absolute;
@@ -520,7 +520,7 @@ body {
     align-items: center;
     gap: 10px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 0 !important;
 }
 
@@ -539,8 +539,8 @@ body {
 }
 
 .form-btns .btn {
-    font-size: 28px;
-    padding: 26px;
+    font-size: 20px;
+    padding: 20px;
 }
 
 .form-btns .btn-dark {
@@ -1080,14 +1080,31 @@ body {
     }
 
     .form-btns .btn {
-        padding: 20px;
-        font-size: 20px;
+        padding: 16px;
+        font-size: 16px;
     }
 
     .f-inp {
-        padding: 20px 70px 20px 70px;
+        font-size: 16px;
+        padding: 20px 50px 20px 50px;
     }
-
+    .form-btns .btn-dark img{
+        height: 26px;
+    }
+    .inp-icon{
+        left: 20px;
+    }
+    .form-terms{
+        font-size: 16px;
+    }
+    .form-terms input{
+        height: 20px;
+        width: 20px;
+    }
+    .inp-icon,.inp-eye-icon {
+        height: 18px;
+        width: 18px;
+    }
     .sec-box {
         padding: 0 40px;
     }

@@ -56,19 +56,4 @@ $(document).ready(function () {
             }
         });
     }
-
-    if ($('.hero-carousel').length > 0) {
-        $('.hero-carousel').slick({
-            slidesToShow: 1, // Show 1 slide at a time
-            slidesToScroll: 1, // Scroll 1 slide at a time
-            autoplay: true, // Autoplay enabled
-            autoplaySpeed: 2000, // Autoplay speed in milliseconds
-            prevArrow: false, // Hide previous arrow
-            nextArrow: false, // Hide next arrow
-            dots: false, // Hide navigation dots
-            draggable: true, // Enable dragging
-            infinite: true, // Infinite looping
-            variableWidth: false // Variable width based on content width
-        });
-    }
 });
