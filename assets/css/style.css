@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .lato {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .poppins {
@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #0D0B1F;
 }
 
@@ -70,12 +70,13 @@ body {
 
 .eb-desc {
     font-size: 20px;
+    color: rgba(204, 202, 219, 1) !important;
 }
 
 .eb-btn {
     font-size: 26px;
     padding: 18px 50px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .main-title {
@@ -145,7 +146,7 @@ body {
 
 .f-link {
     text-decoration: none;
-    color: #A09EB6;
+    color: rgba(204, 202, 219, 1);
 }
 
 .f-link:hover {
@@ -164,7 +165,7 @@ body {
 }
 
 .cb-desc {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .cb-content {
@@ -180,7 +181,7 @@ body {
 
 .page-desc {
     max-width: 815px;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .stat-cont {
@@ -230,7 +231,7 @@ body {
 }
 
 .ws-content .page-desc {
-    color: #C7C8F0;
+    color: rgba(204, 202, 219, 1);
 }
 
 .step-pill {
@@ -283,8 +284,8 @@ body {
 }
 
 .sb-desc {
-    font-size: 14px;
-    color: #8A86A8;
+    font-size: 16.5px;
+    color: rgba(204, 202, 219, 1);
 }
 
 .sb-img {
@@ -294,7 +295,8 @@ body {
 }
 
 .ws-text {
-    font-size: 18px;
+    font-size: 19px;
+    color: rgba(204, 202, 219, 1) !important;
 }
 
 .ws-img {
@@ -306,8 +308,8 @@ body {
 }
 
 .whys-desc {
-    font-size: 14px;
-    color: #93B0D2;
+    font-size: 16.5px;
+    color: rgba(204, 202, 219, 1);
 }
 
 .whys-flex {
@@ -369,6 +371,7 @@ body {
 
 .accordion-body {
     color: #FFFFFF;
+    font-size: 16.5px;
     padding: 0px 80px 40px;
 }
 
@@ -400,7 +403,7 @@ body {
 }
 
 .t-content {
-    color: #D7EBF9;
+    color: rgba(204, 202, 219, 1);
     padding-right: 32px;
 }
 
@@ -413,7 +416,7 @@ body {
 }
 
 .pd-purple {
-    color: #C7C8F0 !important;
+    color: rgba(204, 202, 219, 1) !important;
 }
 
 .t-star {
@@ -443,8 +446,9 @@ body {
 }
 
 .fb-link {
-    color: #436CD0 !important;
+    color: rgba(204, 202, 219, 1) !important;
     font-weight: 700;
+    font-size: 19px;
 }
 
 .form-box {
@@ -464,6 +468,11 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 90px 50px;
+}
+
+.fb-form .page-desc{
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .inp-icon {
@@ -505,6 +514,7 @@ body {
 .inp-eye-icon {
     height: 22px;
     width: 22px;
+    font-size: 22px;
     object-fit: contain;
     object-position: center;
     position: absolute;
@@ -545,7 +555,7 @@ body {
 
 .form-btns .btn-dark {
     background-color: #201E31;
-    color: #8595B8;
+    color: #ffffff;
 }
 
 .form-btns .btn-dark img {
@@ -612,12 +622,12 @@ body {
     padding: 20px 25px 22px;
     font-size: 18px;
     font-weight: 600;
-    color: #8D8BA0;
+    color: rgba(204, 202, 219, 1);
     background-color: transparent !important;
     border: 0 !important;
     position: relative;
     white-space: nowrap;
-    box-shadow: 0 !important;
+    box-shadow: none !important;
 }
 
 .nav-tabs .nav-link.active {
@@ -728,7 +738,7 @@ body {
 }
 
 .blog-date {
-    color: #C7C8F0;
+    color: rgba(204, 202, 219, 1);
     font-size: 15px;
 }
 
@@ -1104,6 +1114,7 @@ body {
     .inp-icon,.inp-eye-icon {
         height: 18px;
         width: 18px;
+        font-size: 18px;
     }
     .sec-box {
         padding: 0 40px;
