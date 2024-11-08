@@ -470,7 +470,7 @@ body {
     padding: 90px 50px;
 }
 
-.fb-form .page-desc{
+.fb-form .page-desc {
     margin: 0 auto;
     max-width: 600px;
 }
@@ -1098,24 +1098,31 @@ body {
         font-size: 16px;
         padding: 20px 50px 20px 50px;
     }
-    .form-btns .btn-dark img{
+
+    .form-btns .btn-dark img {
         height: 26px;
     }
-    .inp-icon{
+
+    .inp-icon {
         left: 20px;
     }
-    .form-terms{
+
+    .form-terms {
         font-size: 16px;
     }
-    .form-terms input{
+
+    .form-terms input {
         height: 20px;
         width: 20px;
     }
-    .inp-icon,.inp-eye-icon {
+
+    .inp-icon,
+    .inp-eye-icon {
         height: 18px;
         width: 18px;
         font-size: 18px;
     }
+
     .sec-box {
         padding: 0 40px;
     }
@@ -1155,6 +1162,11 @@ body {
 }
 
 @media (max-width:768px) {
+
+    .ws-text {
+        font-size: 14px;
+    }
+
     .eb-btn {
         padding: 12px 30px;
         font-size: 18px;
@@ -1185,17 +1197,34 @@ body {
     .f-social-links {
         gap: 20px;
     }
-
-    .cb-title {
-        font-size: 36px;
+    .blog{
+        gap: 24px;
     }
-
+    .blog-profile{
+        height: 54px;
+        width: 54px;
+    }
+    .cb-title {
+        font-size: 22px;
+    }
+    .blog-name{
+        font-size: 14px;
+    }
+    .blog-category{
+        font-size: 14px;
+    }
+    .blog-title{
+        font-size: 18px;
+    }
+    .blog-arrow{
+        height: 40px;
+        width: 40px;
+    }
+    .faqs-box{
+        padding: 40px 20px;
+    }
     .cb-desc {
         font-size: 16px;
-    }
-
-    .cb-title {
-        font-size: 26px;
     }
 
     .cb-content {
@@ -1207,17 +1236,20 @@ body {
     }
 
     .page-title {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .page-title-2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .page-desc {
         font-size: 14px;
     }
 
+    .t-img{
+        height: 28px;
+    }
     .sb-content {
         padding: 10px 16px;
         background-size: cover;
