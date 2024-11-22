@@ -211,6 +211,9 @@ body {
     background-color: #FFFFFF;
     color: #474653;
 }
+.sb-light .sb-desc{
+    color: #474653;
+}
 
 .sb-title {
     font-size: 37px;
